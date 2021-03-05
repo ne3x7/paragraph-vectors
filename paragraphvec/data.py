@@ -8,7 +8,7 @@ from os.path import join
 import numpy as np
 import torch
 from numpy.random import choice
-from torchtext.data import Field, TabularDataset
+from torchtext.legacy.data import Field, TabularDataset
 
 from paragraphvec.utils import DATA_DIR
 
